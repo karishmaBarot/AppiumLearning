@@ -13,7 +13,7 @@ public class TestCase_MainPage extends BaseClass{
         Functions f = new Functions(mobileDriver);
         f.clickOnViews();
     }
-
+/*
     @Test(priority=2)
     public void testAnimationBTN() throws InterruptedException {
         Functions f = new Functions(mobileDriver);
@@ -24,6 +24,15 @@ public class TestCase_MainPage extends BaseClass{
         Functions f = new Functions(mobileDriver);
         f.transitionBTN();
 
-        
+
+    } */
+
+    @Test(priority=2)
+    public void testSeekBarBTN() throws InterruptedException {
+        Functions f = new Functions(mobileDriver);
+        f.scrollFun("Seek Bar");
+
+        f.seekBarBTN();
+        f.seekBarFun();
     }
 }

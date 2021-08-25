@@ -23,6 +23,9 @@ public class MainPageOR extends BaseClass{
     @AndroidFindBy(xpath="//android.widget.TextView[@content-desc='3D Transition']")
     WebElement transitionBTN;
 
+    @AndroidFindBy(xpath="//android.widget.TextView[@content-desc=\"Seek Bar\"]")
+    WebElement seekBarBTN;
+
 
 
     public WebElement getViewsBTN(){
@@ -33,5 +36,9 @@ public class MainPageOR extends BaseClass{
     }
     public WebElement getTransitionBTN(){
         return transitionBTN;
+    }
+
+    public WebElement setSeekBarBTN() {
+        return seekBarBTN;
     }
 }
