@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Entrise Automation Suite" duration-ms="57848" started-at="2021-08-25T12:25:21 IST" finished-at="2021-08-25T12:26:18 IST">
+    <groups>
+    </groups>
+    <test name="Regression Testcases" duration-ms="57848" started-at="2021-08-25T12:25:21 IST" finished-at="2021-08-25T12:26:18 IST">
+      <class name="testcasesrepository.TestAutoComplete">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcasesrepository.TestAutoComplete@335eadca]" name="setUp" is-config="true" duration-ms="31434" started-at="2021-08-25T12:25:21 IST" finished-at="2021-08-25T12:25:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="scrollTest()[pri:0, instance:testcasesrepository.TestAutoComplete@335eadca]" name="scrollTest" duration-ms="26321" started-at="2021-08-25T12:25:52 IST" finished-at="2021-08-25T12:26:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcasesrepository.TestAutoComplete@335eadca]" name="tearDown" is-config="true" duration-ms="57" started-at="2021-08-25T12:26:18 IST" finished-at="2021-08-25T12:26:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcasesrepository.TestAutoComplete -->
+    </test> <!-- Regression Testcases -->
+  </suite> <!-- Entrise Automation Suite -->
+</testng-results>
